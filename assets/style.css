@@ -295,3 +295,93 @@ ul {
 	align-items: center;
 }
 
+.featured-projects .pictures {
+	display: flex;
+	justify-content: space-between;
+}
+
+.featured-projects .content {
+	width: 581px;
+}
+
+.featured-projects h3 {
+	font-size: 39px;
+	color: #1B1A1A;
+	font-weight: 400;
+}
+
+.featured-projects p {
+	margin: 15px 0 42px 0;
+	color: #645C55;
+	line-height: 20px;
+}
+
+.featured-projects .item-build {
+	background-image: url(/assets/img/building.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 379px;
+	height: 460px;
+}
+
+.featured-projects .item-clothes {
+	background-image: url(/assets/img/clothes.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 379px;
+	height: 460px;
+	padding: 40px 39px;
+	line-height: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.featured-projects .item-clothes span {
+	color: #645C55;
+	font-size: 14px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+.featured-projects .item-clothes h4 {
+	font-size: 23px;
+	font-weight: 400;
+	color: #403E3B;
+}
+
+.featured-projects .item-clothes a {
+	text-decoration: none;
+	color: #FFF;
+	padding: 11px 20px;
+	background-color: #1B1A1A;
+	border-radius: 14px;
+	width: 133px;
+}
+
+.featured-projects .item-sky {
+	background-image: url(/assets/img/sky.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 379px;
+	height: 460px;
+}
+
+.featured-projects .button {
+	display: flex;
+	justify-content: center;
+}
+
+.featured-projects a {
+	display: inline-block;
+	text-decoration: none;
+	color: #1B1A1A;
+	margin-top: 40px;
+	padding: 11px 20px;
+	transition: 0.3s;
+}
+
+.featured-projects a:hover {
+	color: #e16a20cd;
+}
