@@ -77,12 +77,13 @@ ul {
 }
 
 .promo-left h3,
-.art-content h3 {
+.art-content h3,
+.our-process h3 {
 	font-size: 14px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	font-weight: 400;
-	color: #403E3B;
+	color: #645C55;
 }
 
 .promo-left h1 {
@@ -138,7 +139,8 @@ ul {
 	font-size: 32px;
 }
 
-.firm-right p {
+.firm-right p,
+.our-process .all-items p {
 	color: #403E3B;
 	line-height: 24px;
 }
@@ -181,7 +183,11 @@ ul {
 
 .art-content {
 	width: 300px;
-	margin-right: 60px;
+	margin: 0 60px;
+}
+
+.art-content p {
+	color: #645C55;
 }
 
 .container-process {
@@ -189,3 +195,103 @@ ul {
 	margin: 0 auto;
 	padding: 100px 0;
 }
+
+.container-process {
+	width: 1074px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.container-process > p {
+	margin: 13px 0 47px 0;
+	font-size: 39px;
+}
+
+.all-items {
+	display: flex;
+	justify-content: space-between;
+}
+
+.our-process .item {
+	text-align: center;
+	width: 285px;
+}
+
+.our-process span {
+	display: block;
+	margin: 15px 0 10px 0;
+}
+
+.the-marble-staircase-content {
+	background-image: url(/assets/img/the-marble-staircase.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 600px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.happy-customers {
+	background-color: #403E3B;
+}
+
+.container-standart {
+	width: 1168px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+
+.happy-customers .customers-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.happy-customers .content {
+	width: 450px;
+}
+
+.happy-customers .all-logo {
+	display: flex;
+	flex-direction: column;
+	gap: 96px;
+	padding: 40px;
+	margin-right: 144px;
+}
+
+.happy-customers .top,
+.happy-customers .bottom {
+	display: flex;
+	gap: 95px;
+	align-items: center;
+}
+
+.happy-customers h3 {
+	color: #ECE7E4;
+	font-size: 14px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+.happy-customers span {
+	font-size: 32px;
+	color: #FFF;
+}
+
+.happy-customers p {
+	color: #ECE7E4;
+	font-size: 15px;
+}
+
+.the-swirling-staircase-content {
+	background-image: url(/assets/img/the-swirling-staircase.png);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 600px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
