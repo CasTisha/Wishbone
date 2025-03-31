@@ -295,6 +295,10 @@ ul {
 	align-items: center;
 }
 
+.featured-projects {
+	background-color: #F7F7F7;
+}
+
 .featured-projects .pictures {
 	display: flex;
 	justify-content: space-between;
@@ -335,6 +339,7 @@ ul {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	align-items: flex-start;
 }
 
 .featured-projects .item-clothes span {
@@ -351,7 +356,7 @@ ul {
 	color: #403E3B;
 }
 
-.featured-projects .item-clothes a {
+.featured-projects .item-clothes .button a {
 	text-decoration: none;
 	color: #FFF;
 	padding: 11px 20px;
@@ -382,6 +387,130 @@ ul {
 	transition: 0.3s;
 }
 
+.featured-projects .item-clothes .button a:hover {
+	background-color: #e16a20cd;
+}
+
 .featured-projects a:hover {
 	color: #e16a20cd;
+}
+
+.meet-our-team-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.meet-our-team .content {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	width: 358px;
+}
+
+.meet-our-team .content h3 {
+	font-size: 32px;
+	font-weight: 400;
+	color: #403E3B;
+}
+
+.meet-our-team .content p {
+	font-size: 15px;
+	color: #645C55;
+	margin: 14px 0 30px 0;
+	line-height: 24px;
+}
+
+.meet-our-team .content a {
+	padding: 11px 20px; 
+	color: #1B1A1A;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+.meet-our-team .content a:hover {
+	color: #e16a20cd;
+}
+
+.meet-our-team .workers {
+	display: flex;
+	flex-direction: column;
+	gap: 36px;
+}
+
+.meet-our-team .workers .item {
+	display: flex;
+}
+
+.meet-our-team .workers .author {
+	margin-right: 114px;
+}
+
+.touch {
+	background-color: #CEC4BC;
+}
+
+.touch-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.touch .content {
+	width: 569px;
+}
+
+.touch .content h3 {
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #645C55;
+}
+
+.touch .content p {
+	font-size: 40px;
+	line-height: 42px;
+}
+
+.touch a {
+	padding: 11px 20px; 
+	color: #1B1A1A;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+.touch a:hover {
+	color: #e16a20cd;
+}
+
+footer .footer-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+footer .content {
+	width: 700px;
+}
+
+footer .logo {
+	margin-bottom: 20px;
+}
+
+footer .text p {
+	font-size: 14px;
+	color: #645C55;
+}
+
+footer .socials {
+	display: flex;
+	gap: 20px;
+}
+
+footer a {
+	transition: 0.3s;
+}
+
+footer a:hover {
+	transform: scale(1.4);
 }
